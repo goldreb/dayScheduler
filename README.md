@@ -14,4 +14,4 @@ The user can input tasks into the test area and click the checkmark to store it 
 
 This project can be previewed live via Github at
 
-
+https://goldreb.github.io/dayScheduler/
