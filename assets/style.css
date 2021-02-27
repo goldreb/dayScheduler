@@ -1,0 +1,119 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-image: linear-gradient(to top, rgb(238, 137, 137, 0), rgb(243, 125, 125),rgb(255,204,255));;
+}
+
+.text-area {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 100px;
+  
+}
+
+/* textarea {
+  background: transparent;
+} */
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(68, 64, 64);
+  border-radius: 0; 
+   border-bottom: double rgb(133, 129, 129); 
+  margin: 5px;
+  
+}
+.form-description {
+white-space: pre-wrap;
+font-family: cursive;
+font-size: large;
+font-style: italic;
+border-radius: .25rem;
+}
+
+ .time-block {
+  text-align: center;
+  border-radius: 25px;
+} 
+
+.row {
+  white-space: pre-wrap;
+  height: 100px;
+  border-top: 1px solid white;;
+  justify-content: center;
+}
+
+.hour {
+  background-color: beige;
+  color: black;
+  font-weight: bold;
+  border-top: 1px dashed #000000;
+  padding-top: 30px;
+  justify-self: center;
+}
+
+.past {
+  background-color:#d3d3d3;
+  color: white;
+  border-radius: 15px;
+}
+
+.present {
+  background-color: #eb3b32;
+  color: white;
+  border-radius: 15px;
+}
+
+.future {
+  background-color:#217e27;
+  color: white;
+  border-radius: 15px;
+}
+
+.save-btn {
+  border-left: 1px solid black;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.save-btn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+h1, #currentDay {
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+
+.day-planner {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 20px auto;
+  opacity: 100%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .day-planner {
+    padding: auto -50px;
+    margin: 0px 0px;
+  }
+
+}
